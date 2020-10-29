@@ -1,0 +1,63 @@
+
+.medium-map {
+    border: 0; 
+    display: none;
+}
+
+.small-map {
+    border: 0; 
+    display: none;
+}
+
+.contact-section {
+    background-color: gray; 
+    display: flex; 
+    height: 90vh;
+    flex-direction: column; 
+    justify-content: space-around;
+}
+
+.contact-section > h1 {
+    margin: 0; 
+    align-self: center; 
+}
+
+.contact-contents {
+    display: flex;
+    justify-content: space-around;
+    height: 90%; 
+}
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+}
+
+.contact-form {
+    div {
+    margin: 1rem;
+    display: flex; 
+    flex-direction: column;
+}
+
+.contact-message {
+    flex-grow: 1;
+}
+    textarea {
+        flex-grow: 1;
+}
+
+.submit-button {
+    border-radius: 10px;
+    border: 2px solid #00AA66;
+    color: #00AA66; 
+
+}
+
+.submit-button:hover {
+    background-color: #00AA66;
+    color: white; 
+    transition: 0.5s;
+}
+}

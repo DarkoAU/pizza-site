@@ -1,0 +1,10 @@
+@import "normalize.css";
+@import "variables" ;
+@import "navigation";
+@import "index";
+@import "pizzas"; 
+@import "contact"; 
+
+h1 {
+    color: $primary-button-color; 
+}
